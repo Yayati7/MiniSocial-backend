@@ -13,7 +13,11 @@ dotenv.config();
 const app = express();
 
 /* ---------- MIDDLEWARE ---------- */
-app.use(cors());
+app.use(cors({
+  origin: "https://pj4-frontend.vercel.app",
+  credentials: true
+}));
+
 app.use(express.json());
 
 /* ---------- ROUTES ---------- */
