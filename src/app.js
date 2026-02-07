@@ -14,7 +14,7 @@ const app = express();
 
 /* ---------- MIDDLEWARE ---------- */
 app.use(cors({
-  origin: "https://minisocial-backend-hj8i.onrender.com",
+  origin: "https://mini-social-frontend-three.vercel.app/",
   credentials: true
 }));
 
