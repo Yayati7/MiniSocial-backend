@@ -14,7 +14,7 @@ const app = express();
 
 /* ---------- MIDDLEWARE ---------- */
 app.use(cors({
-  origin: "https://pj4-frontend.vercel.app",
+  origin: "https://mini-social-frontend-three.vercel.app/",
   credentials: true
 }));
 
